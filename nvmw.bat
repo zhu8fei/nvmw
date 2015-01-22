@@ -20,11 +20,11 @@ if %IS64% == TRUE (
 )
 
 if not defined NVMW_NODEJS_ORG_MIRROR (
-  set "NVMW_NODEJS_ORG_MIRROR=https://nodejs.org/dist"
+  set "NVMW_NODEJS_ORG_MIRROR=http://npm.taobao.org/mirrors/node"
 )
 
 if not defined NVMW_IOJS_ORG_MIRROR (
-  set "NVMW_IOJS_ORG_MIRROR=https://iojs.org/dist"
+  set "NVMW_IOJS_ORG_MIRROR=http://npm.taobao.org/mirrors/iojs"
 )
 
 if "%1" == "install" if not "%2" == "" (

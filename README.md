@@ -2,6 +2,8 @@ Node Version Manager for Windows
 ================================
 nvmw is a simple Node Version Manager for Windows.
 
+___This is a fork nvmw using [cnpm mirrors](http://npm.taobao.org/mirrors).___
+
 Prerequisites
 -------------
 
@@ -15,7 +17,7 @@ Installation
 
 Clone this repository:
 
-    git clone git://github.com/hakobera/nvmw.git "%HOMEDRIVE%%HOMEPATH%\.nvmw"
+    git clone git://github.com/cnpm/nvmw.git "%HOMEDRIVE%%HOMEPATH%\.nvmw"
 
 To activate nvmw, add nvmw directory to your PATH environment variable
 
