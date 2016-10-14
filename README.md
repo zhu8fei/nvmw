@@ -78,6 +78,10 @@ FAQ
 
 Maybe you associated ".js" file to another app, not JScript engine. To fix, see [here](http://www.winhelponline.com/articles/230/1/Error-There-is-no-script-engine-for-file-extension-when-running-js-files.html)
 
+### Q. Node.exe download faild caused '0 Unknown'
+
+Maybe you modify fget.js  `var xhr = WScript.createObject('Msxml2.XMLHttp')` -> `var xhr = WScript.createObject('Msxml2.ServerXMLHttp')`
+
 LICENSE
 -------
 (The MIT License)
